@@ -1,0 +1,57 @@
+    @media (max-width:863px) {
+
+        .header {
+            margin: 0px 10px 0px 10px;
+            position: relative;
+            top: 15px;
+        }
+
+        .nav-list {
+            display: none;
+        }
+
+        .burger-menu {
+            padding-top: 2px;
+            padding-right: 17px;
+            display: flex;
+        }
+
+
+        .main__Page {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .about-us {
+            gap: 10px;
+            padding: 37px 0px 0px 0px;
+        }
+
+        .about-Us__Prog {
+            font-size: 33px;
+        }
+
+        .p-line__block {
+            display: flex;
+            justify-content: center;
+        }
+
+        .go__to-test__btn {
+            display: flex;
+            justify-content: center;
+        }
+
+        .img-pc {
+            height: 450px;
+            display: flex;
+        }
+    }
+
+    @media (max-width:431px) {
+        .reg__block-button {
+            display: none;
+        }
+    }

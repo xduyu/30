@@ -1,0 +1,65 @@
+/* body {
+    height: 100vh;
+    background: url(https://img.freepik.com/premium-photo/beautiful-new-year-card-with-number-wooden-background_131240-1644.jpg) no-repeat center/cover;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.predition-block{
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(2px);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#predition__btn{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+#predition__btn:hover{
+    background-color: rgb(16, 16, 16);
+} */
+
+
+.wrapper {
+
+
+}
+.container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tree {
+    width: 500px;
+    height: 700px;
+    background: url(./img/pngwing.png) no-repeat center/cover;
+
+}
+
+img{
+    width: 80px;
+}
+
+.toys-list {
+    column-gap: 50px;
+    display: flex;
+}
+.toys__item {
+    list-style: none;
+}

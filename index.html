@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+
+
+    <div class="wrapper">
+        <div class="student">
+            <input type="text" id="pupil-name" placeholder="name">
+            <input type="text" id="pupil-sur-name" placeholder="surname">
+            <input type="text" id="pupil-about" placeholder="about">
+            <input type="text" id="pupil-course" placeholder="course">
+            <input type="text" id="pupil-faculty" placeholder="faculty">
+        </div>
+        <button id="add-new-student">Add student</button>
+        <div class="teacher">
+            <input type="text" id="teacher-name" placeholder="name">
+            <input type="text" id="teacher-sur-name" placeholder="surname">
+            <input type="text" id="teacher-about" placeholder="about">
+            <input type="text" id="teacher-direction" placeholder="direction">
+        </div>
+        <button id="add-new-teacher">Add teacher</button>
+        <ul id="userslist">
+        </ul>
+    </div>
+
+
+    <!-- <style>
+        #res{
+            height: 200px;
+            background-color: burlywood;
+        }
+    </style> -->
+
+    <!-- <div id="res"></div>
+    <img id="img-data" draggable="true" src="https://img.freepik.com/free-psd/beautiful-green-tree_23-2151877213.jpg" alt=""> -->
+
+    <!-- <div class="wrapper">
+        <div class="container">
+            <div class="tree"></div>
+            <ul class="toys-list">
+                <li class="toys__item">
+                    <img src="./css/img/t1.png" draggable="true" alt="">
+                </li>
+                <li class="toys__item">
+                    <img src="./css/img/t2.png" draggable="true" alt="">
+                </li>
+                <li class="toys__item">
+                    <img src="./css/img/t3.png" draggable="true" alt="">
+                </li>
+                <li class="toys__item">
+                    <img src="./css/img/t4.png" draggable="true" alt="">
+                </li>
+                <li class="toys__item">
+                    <img src="./css/img/t5.png" draggable="true" alt="">
+                </li>
+            </ul>
+        </div>
+    </div> -->
+
+    <!-- <div class="wrapper">
+        <div class="container">
+            <div class="predition-block">
+                <h1>Предсказание на 2025 год</h1>
+                <div class="btn-block">
+                    <button id="predition__btn">Оплатить и получить: предсказание</button>
+                </div>
+                <div id="predition__res"></div>
+            </div>
+        </div
+    </div> -->
+    <!-- <script src="./js/app.js"></script> -->
+    <!-- <script>
+    const res = document.getElementById('res')
+    const imgData = document.getElementById('img-data')
+    
+    res.addEventListener("dragover", (event) => {
+        event.preventDefault()
+    })
+    
+    imgData.addEventListener("dragstart", (event)=>{
+        event.dataTransfer.setData("img", event.target.id)
+        event.target.style.opacity = 0;
+    })
+    imgData.addEventListener("dragend", (event)=>{
+        event.target.style.opacity = 1;
+    })
+    
+    res.addEventListener('drop', (event) =>{
+        const elId = event.dataTransfer.getData("img")
+    
+        const dragEl = document.getElementById(elId)
+        if(dragEl){
+            res.append(dragEl)
+        }
+    })
+    </script> -->
+    <script src="js/app8.js"></script>
+</body>
+
+</html>

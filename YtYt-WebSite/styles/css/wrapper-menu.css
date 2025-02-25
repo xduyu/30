@@ -1,0 +1,40 @@
+:root {
+    --font-family: "Gilroy", sans-serif;
+    --second-family: "Gilroy SemiBold", sans-serif;
+    --third-family: "Inter", sans-serif;
+    --font3: "Manrope", sans-serif;
+}
+
+.wrapper-menu {
+    display: none;
+    background-color: #F15525;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.close__btn-wrp-menu {
+    top: 39px;
+    right: 27px;
+    position: absolute;
+}
+
+.menu {
+    row-gap: 105px;
+    margin-top: 30%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.menu__item {
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 104%;
+    text-align: center;
+    color: #fff;
+}
+
+.menu__link {}
